@@ -3,3 +3,4 @@ moduledir 'ext_modules'
 
 mod 'rtyler/jenkins', '1.6.1'
 mod 'jfryman/nginx', '0.3.0'
+mod 'puppetlabs/stdlib', '4.12.0'
