@@ -1,10 +1,6 @@
 class ci {
   include nginx
-
-  class { 'jenkins':
-    version            => 'latest',
-    configure_firewall => false,
-  }
+  include jenkins
 
   nginx::resource::vhost { 'default':
     listen_port => 80,
