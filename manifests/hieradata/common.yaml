@@ -1,0 +1,3 @@
+---
+ci::jenkins::version: 'latest'
+ci::jenkins::configure_firewall: false
